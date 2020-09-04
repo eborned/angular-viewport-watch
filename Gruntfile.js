@@ -8,13 +8,6 @@ module.exports = function (grunt) {
       return value.indexOf('bower_component') !== -1;
     });
   }});
-  require('wix-gruntfile')(grunt, {
-    port: 9000,
-    preloadModule: 'angularViewportWatchAppInternal',
-    unitTestFiles: unitTestFiles,
-    protractor: true,
-    bowerComponent: true
-  });
 
   grunt.modifyTask('yeoman', {
     local: 'http://localhost:<%= connect.options.port %>/'
