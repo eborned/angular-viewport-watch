@@ -1,19 +1,11 @@
 {
   "name": "@musicdirector/angular-viewport-watch",
   "main": "angular-viewport-watch.js",
-  "version": "0.1.4",
-  "ignore": [
-    ".*",
-    "Gemfile*",
-    "Gruntfile.js",
-    "pom.xml",
-    "*.json",
-    "*.conf.js",
-    "app",
-    "test",
-    "maven",
-    "*.sublime*",
-    "protractor-conf.js"
+  "version": "0.1.5",
+  "files": [
+    "angular-viewport-watch.js",
+    "README*",
+    "LICENSE"
   ],
   "dependencies": {
     "angular": "^1.2.0",
